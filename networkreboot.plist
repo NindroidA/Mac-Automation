@@ -13,8 +13,12 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/bin/bash</string>
-        <string>./afterboot.sh</string>
+        <string>/usr/sbin/networksetup</string>
+        <string>-setnetworkserviceenabled</string>
+        <string>Wi-Fi</string>
+        <string>on;</string>
+        <string>/bin/rm</string>
+        <string>com.andrew.networkreboot.plist</string>
     </array>
 </dict>
 </plist>
