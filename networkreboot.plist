@@ -16,9 +16,7 @@
         <string>/usr/sbin/networksetup</string>
         <string>-setnetworkserviceenabled</string>
         <string>Wi-Fi</string>
-        <string>on;</string>
-        <string>/bin/rm</string>
-        <string>com.andrew.networkreboot.plist</string>
+        <string>on</string>
     </array>
 </dict>
 </plist>
