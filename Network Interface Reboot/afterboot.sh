@@ -7,4 +7,4 @@ sudo networksetup -setnetworkserviceenabled Wi-Fi on
 sudo rm /Library/LaunchDaemons/com.nindroid.NIR.plist
 
 #Remove the temporary folder
-sudo rm -r /temp
+sudo rm -r /Library/temp
