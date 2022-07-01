@@ -1,13 +1,13 @@
 #! /usr/bin/bash
 
 #Enable the Wi-Fi Interface
-networksetup -setnetworkserviceenabled Wi-Fi on
+sudo networksetup -setnetworkserviceenabled Wi-Fi on
 
 #Bootout the plist
-launchctl bootout system /Library/LaunchDaemons/com.nindroid.NIR.plist
+sudo launchctl bootout system /Library/LaunchDaemons/com.nindroid.NIR.plist
 
 #Remove the plist
-rm /Library/LaunchDaemons/com.nindroid.NIR.plist
+sudo rm /Library/LaunchDaemons/com.nindroid.NIR.plist
 
 #Remove the temporary folder
-rm -r /Library/temp
+sudo rm -r /Library/temp
