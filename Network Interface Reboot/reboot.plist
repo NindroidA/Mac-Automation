@@ -6,7 +6,7 @@
     <string>com.andrew.networkreboot.plist</string>
 
     <key>Program</key>
-    <string>/System/Library/temp/AfterBoot.sh</string>
+    <string>/Library/temp/AfterBoot.sh</string>
 
     <key>RunAtLoad</key>
     <true/>
